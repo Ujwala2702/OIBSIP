@@ -1,0 +1,74 @@
+Oasi s Infobyte Data Science Internship
+✅ Task 5 – 💰 Sales  Prediction using Machine Learning
+This project was developed under the Oasis Infobyte Data Science Internship, focusing on predicting product sales using machine learning techniques. The primary objective was to analyze marketing spend and other influencing factors to accurately forecast sales and help in data-driven decision-making for future business planning.
+
+📝 Problem Statement
+Sales forecasting plays a critical role in business strategy. The goal of this project is to build a regression model that predicts sales volume based on various independent features such as:
+
+Advertising budget
+
+Marketing channel (TV, Radio, Newspaper)
+
+Product category or region (if available)
+
+🧰 Tools & Technologies Used
+Python
+
+Pandas, NumPy – Data handling
+
+Matplotlib, Seaborn – Data visualization
+
+Scikit-learn – Model training & evaluation
+
+Linear Regression, Random Forest Regressor, Decision Tree Regressor
+
+🛠️ Project Workflow
+Data Preprocessing:
+
+Handled missing values and outliers
+
+Scaled and normalized features for better model performance
+
+Exploratory Data Analysis (EDA):
+
+Visualized sales trends using bar plots and scatter plots
+
+Investigated correlations between features and target variable
+
+Model Building & Evaluation:
+
+Built multiple regression models and compared them
+
+Used metrics like R² Score, MAE, and RMSE to evaluate performance
+
+Best model achieved high accuracy and generalization on test data
+
+📈 Results & Visualizations
+Achieved reliable prediction performance using Random Forest Regressor
+
+Plotted actual vs predicted sales for visual comparison
+
+Showed feature importance to interpret key sales drivers
+
+💡 Key Learnings
+Understood regression modeling in real-world business applications
+
+Gained experience in feature engineering and data visualization
+
+Learned to evaluate and tune models for better accuracy
+
+Improved understanding of how marketing inputs impact sales outcomes
+
+📁 Repository Structure
+bash
+Copy
+Edit
+├── sales_prediction.ipynb           # Main Jupyter notebook
+├── data/
+│   └── sales.csv                    # Dataset file
+├── images/
+│   └── sales_plot.png               # Output visualizations
+├── README.md
+🤝 Acknowledgment
+This project was completed during my internship with Oasis Infobyte, where I worked on real-time datasets and gained valuable hands-on experience in sales forecasting, data preprocessing, and machine learning model building.
+
