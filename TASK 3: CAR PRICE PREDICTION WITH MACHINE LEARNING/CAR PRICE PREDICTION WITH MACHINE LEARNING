@@ -1,0 +1,77 @@
+Oasis Infobyte Data Science Internship
+✅ Task 3 – 🚗 Car Price Prediction with Machine Learning
+This project is part of my internship at Oasis Infobyte, where I worked on predicting car prices using various machine learning algorithms. The objective was to build a regression model that could accurately estimate the price of a car based on multiple influencing features.
+
+📌 Problem Statement
+To develop a predictive model that estimates the price of a car based on:
+
+Engine capacity, fuel type, and transmission
+
+Brand, model, mileage, and age of the car
+
+Owner type and other categorical/numerical features
+
+🧰 Technologies Used
+Python
+
+Pandas, NumPy – Data analysis
+
+Matplotlib, Seaborn – Visualization
+
+Scikit-learn – ML algorithms and evaluation
+
+🛠️ Key Components
+Data Preprocessing:
+
+Handled missing values and outliers
+
+Encoded categorical variables (Brand, Fuel, etc.)
+
+Normalized numerical data for better model performance
+
+Feature Engineering:
+
+Derived new features like car age
+
+Removed multicollinearity among features
+
+Model Building:
+
+Implemented Linear Regression, Ridge, and Random Forest Regression 
+
+Compared models using R² Score, MAE, and RMSE
+
+Model Evaluation:
+
+Final model achieved an R² score of 0.89
+
+Conducted residual analysis and performance plotting
+
+📈 Visual Outputs
+Correlation heatmap
+
+Feature importance bar chart
+
+Actual vs Predicted price scatter plot
+
+💡 Learning Outcomes
+Understood end-to-end regression modeling for real-world data
+
+Gained expertise in data wrangling, feature selection, and model tuning
+
+Learned how to handle categorical variables effectively
+
+Developed confidence in interpreting and communicating model results
+
+📁 Repository Structure
+bash
+Copy
+Edit
+├── Car_Price_Prediction.ipynb         # Main Jupyter Notebook
+├── README.md                          # Project documentation
+├── dataset/
+│   └── car_data.csv                   # Dataset used for training
+├── images/
+│   └── actual_vs_predicted.png        # Visual output of prediction
+🤝 Acknowledgment
+This project was completed as part of the Oasis Infobyte Data Science Internship program. It helped reinforce applied machine learning concepts and practical implementation skills in regression analysis.
